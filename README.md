@@ -6,7 +6,7 @@
 
 首次安装：Firefox Developer Edition 142以上，在about:config将xpinstall.signatures.required设为false；在about:addons齿轮菜单选择“从文件安装附加组件”，选择下载的XPI。
 
-安装0.3.0或以上版本后，在插件右上角点“检查更新”，发现新版后点“安装更新”，在Firefox提示中确认。Firefox原生更新机制也使用本仓库的HTTPS更新清单和SHA-256校验。保持固定扩展ID，更新不清空本地素材记录。
+安装0.3.2或以上版本后，在插件右上角点“检查更新”，发现新版后点“安装更新”，进入HTTPS安装页，再按页面及Firefox提示确认。Firefox原生更新机制也使用本仓库的HTTPS更新清单和SHA-256校验。保持固定扩展ID，更新不清空本地素材记录。
 
 其他电脑首次安装同一个最新XPI并完成上述Firefox配置即可。素材、队列和网站登录保存在各自电脑，不跨电脑同步。
 
