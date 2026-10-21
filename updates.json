@@ -1,0 +1,18 @@
+{
+  "addons": {
+    "taotian-media-helper@local.invalid": {
+      "updates": [
+        {
+          "version": "0.3.0",
+          "update_link": "https://github.com/qq1395970680-source/tommy-material-helper-updates/releases/download/v0.3.0/tommy-material-helper-0.3.0-unsigned.xpi",
+          "update_hash": "sha256:b629be4ef81e1bb8759c1ad17b8a217cae2c5fdfc73eefed8fed56057ebb1c75",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "142.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
