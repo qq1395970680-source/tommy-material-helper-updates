@@ -3,9 +3,9 @@
     "taotian-media-helper@local.invalid": {
       "updates": [
         {
-          "version": "0.3.2",
-          "update_link": "https://github.com/qq1395970680-source/tommy-material-helper-updates/releases/download/v0.3.2/tommy-material-helper-0.3.2-unsigned.xpi",
-          "update_hash": "sha256:9bd5715e51a5bf317f8c8d762ddb9700a18ade112d4f175f6b896715fbc80e5d",
+          "version": "0.3.3",
+          "update_link": "https://github.com/qq1395970680-source/tommy-material-helper-updates/releases/download/v0.3.3/tommy-material-helper-0.3.3-unsigned.xpi",
+          "update_hash": "sha256:1994e50d2a4c932467218190bd2e7ecd26d5acc72281238b0f4b2f33d25261d1",
           "applications": {
             "gecko": {
               "strict_min_version": "142.0"
@@ -16,8 +16,8 @@
     }
   },
   "release": {
-    "version": "0.3.2",
-    "size": 31549,
-    "notes": "汤米素材助手 0.3.2\n\n- 插件顶部新增“检查更新”，显示当前版本、新版说明和安装入口。\n- 接入独立GitHub更新仓库；其他电脑使用同一个更新入口。\n- 检查更新直接读取固定清单，避免未登录GitHub版本列表接口的限流影响。\n- 手动更新通过HTTPS安装页调起Firefox安装确认，兼容浏览器对插件页面直接安装的来源限制。\n- 接入Firefox原生更新清单和SHA-256校验，保留扩展ID及本地记录。\n- 下载任务进行中时暂停手动更新入口；原生更新等待任务和采集结束再应用。\n- 保留原图优先、WebP转同尺寸PNG、SKU原规格命名及按商品隔离显示。\n\n安装需要Firefox Developer Edition 142以上，并将xpinstall.signatures.required设为false。\n首次安装本版后，后续可从插件检查新版，或由Firefox原生更新机制更新。\n\n\n"
+    "version": "0.3.3",
+    "size": 31778,
+    "notes": "汤米素材助手 0.3.3\n\n- 每张可下载图片卡片右下角新增“下载此图”，点击即可只下载这一张，无需先取消其他勾选。\n- 未勾选的图片也可直接单独下载；下载完成或失败均保留原有勾选状态，批量下载照常使用。\n- 单图下载沿用当前目录、SKU原规格命名、原图优先和WebP转同尺寸PNG；提交期间禁用按钮，避免连续点击重复提交。\n- 保留iOS风格和深色界面、按商品隔离显示、插件内检查更新及Firefox原生更新。\n\n安装需要Firefox Developer Edition 142以上，并将xpinstall.signatures.required设为false。\n首次安装本版后，后续可从插件检查新版，或由Firefox原生更新机制更新。\n\n\n"
   }
 }
